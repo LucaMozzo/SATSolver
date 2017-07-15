@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Data Structures">
+      <UniqueIdentifier>{83c3e860-5097-4eb1-96ea-3dbfc438daa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Structures">
+      <UniqueIdentifier>{e405b9bd-d2c0-4efd-9204-ee105d48a03f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,6 +30,9 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\Data Structures</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -31,6 +40,9 @@
     </ClCompile>
     <ClCompile Include="SATSolver.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files\Data Structures</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
